@@ -1,0 +1,127 @@
+[
+  {
+    "eventid": "cowrie.session.connect",
+    "src_ip": "IP_REDACTED",
+    "src_port": 47894,
+    "dst_ip": "127.0.0.1",
+    "dst_port": 2222,
+    "session": "SESSION_ID_1",
+    "protocol": "ssh",
+    "message": "New connection: IP_REDACTED:47894 (127.0.0.1:2222) [session: SESSION_ID_1]"
+  },
+  {
+    "eventid": "cowrie.client.version",
+    "version": "SSH-2.0-OpenSSH_8.9p1 Ubuntu",
+    "message": "Remote SSH version: SSH-2.0-OpenSSH_8.9p1 Ubuntu",
+    "sensor": "cowrie-sensor",
+    "timestamp": "2025-07-30T23:41:54.005196Z",
+    "src_ip": "IP_REDACTED"
+  },
+  {
+    "eventid": "cowrie.client.kex",
+    "hassh": "HASH_REDACTED",
+    "hasshAlgorithms": "ALGORITHMS_REDACTED"
+  },
+  {
+    "eventid": "cowrie.login.failed",
+    "username": "user1",
+    "password": "***",
+    "message": "login attempt [user1/***] failed",
+    "sensor": "cowrie-sensor",
+    "timestamp": "2025-07-30T23:42:11.511428Z",
+    "src_ip": "IP_REDACTED"
+  },
+  {
+    "eventid": "cowrie.session.closed",
+    "duration": "30.4",
+    "message": "Connection lost after 30.4 seconds",
+    "sensor": "cowrie-sensor",
+    "timestamp": "2025-07-30T23:42:24.429978Z",
+    "src_ip": "IP_REDACTED",
+    "session": "SESSION_ID_1"
+  },
+  {
+    "eventid": "cowrie.session.connect",
+    "src_ip": "IP_REDACTED",
+    "src_port": 60360,
+    "dst_ip": "127.0.0.1",
+    "dst_port": 2222,
+    "session": "SESSION_ID_2",
+    "protocol": "ssh",
+    "message": "New connection: IP_REDACTED:60360 (127.0.0.1:2222) [session: SESSION_ID_2]"
+  },
+  {
+    "eventid": "cowrie.login.failed",
+    "username": "user1",
+    "password": "***",
+    "message": "login attempt [user1/***] failed",
+    "sensor": "cowrie-sensor",
+    "timestamp": "2025-07-30T23:42:58.210646Z",
+    "src_ip": "IP_REDACTED"
+  },
+  {
+    "eventid": "cowrie.session.closed",
+    "duration": "12.1",
+    "message": "Connection lost after 12.1 seconds",
+    "sensor": "cowrie-sensor",
+    "timestamp": "2025-07-30T23:43:04.673714Z",
+    "src_ip": "IP_REDACTED",
+    "session": "SESSION_ID_2"
+  },
+  {
+    "eventid": "cowrie.session.connect",
+    "src_ip": "IP_REDACTED",
+    "src_port": 56090,
+    "dst_ip": "127.0.0.1",
+    "dst_port": 2222,
+    "session": "SESSION_ID_3",
+    "protocol": "ssh",
+    "message": "New connection: IP_REDACTED:56090 (127.0.0.1:2222) [session: SESSION_ID_3]"
+  },
+  {
+    "eventid": "cowrie.login.failed",
+    "username": "user1",
+    "password": "***",
+    "message": "login attempt [user1/***] failed",
+    "sensor": "cowrie-sensor",
+    "timestamp": "2025-07-30T23:43:10.929618Z",
+    "src_ip": "IP_REDACTED"
+  },
+  {
+    "eventid": "cowrie.session.closed",
+    "duration": "120.0",
+    "message": "Connection lost after 120.0 seconds",
+    "sensor": "cowrie-sensor",
+    "timestamp": "2025-07-30T23:45:06.789757Z",
+    "src_ip": "IP_REDACTED",
+    "session": "SESSION_ID_3"
+  },
+  {
+    "eventid": "cowrie.session.connect",
+    "src_ip": "IP_REDACTED",
+    "src_port": 46170,
+    "dst_ip": "172.20.10.9",
+    "dst_port": 2222,
+    "session": "SESSION_ID_4",
+    "protocol": "ssh",
+    "message": "New connection: IP_REDACTED:46170 (172.20.10.9:2222) [session: SESSION_ID_4]"
+  },
+  {
+    "eventid": "cowrie.login.failed",
+    "username": "user1",
+    "password": "***",
+    "message": "login attempt [user1/***] failed",
+    "sensor": "cowrie-sensor",
+    "timestamp": "2025-07-30T23:48:27.888279Z",
+    "src_ip": "IP_REDACTED"
+  },
+  {
+    "eventid": "cowrie.session.closed",
+    "duration": "120.1",
+    "message": "Connection lost after 120.1 seconds",
+    "sensor": "cowrie-sensor",
+    "timestamp": "2025-07-30T23:50:21.945343Z",
+    "src_ip": "IP_REDACTED",
+    "session": "SESSION_ID_4"
+  }
+]

@@ -1,0 +1,22 @@
+2025-07-30T23:48:21.838641Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: IP_REDACTED:PORT_REDACTED (LOCAL_IP:2222) [session: SESSION_ID_REDACTED]
+2025-07-30T23:48:21.841245Z [HoneyPotSSHTransport,3,IP_REDACTED] Remote SSH version: SSH-2.0-OpenSSH_10.0p2 Debian-5
+2025-07-30T23:48:21.844388Z [HoneyPotSSHTransport,3,IP_REDACTED] SSH client hassh fingerprint: FINGERPRINT_REDACTED
+2025-07-30T23:48:21.847492Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ssh-ed25519'
+2025-07-30T23:48:21.847692Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2025-07-30T23:48:21.848146Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2025-07-30T23:48:23.735106Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2025-07-30T23:48:23.736646Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2025-07-30T23:48:23.738498Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'USERNAME_REDACTED' trying auth b'none'
+2025-07-30T23:48:27.887389Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'USERNAME_REDACTED' trying auth b'password'
+2025-07-30T23:48:27.887982Z [HoneyPotSSHTransport,3,IP_REDACTED] Could not read etc/userdb.txt, default database activated
+2025-07-30T23:48:27.888279Z [HoneyPotSSHTransport,3,IP_REDACTED] login attempt [b'USERNAME_REDACTED'/b'***'] failed
+2025-07-30T23:48:28.890518Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'USERNAME_REDACTED' failed auth b'password'
+2025-07-30T23:48:28.891193Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2025-07-30T23:50:21.942518Z [-] Timeout reached in HoneyPotSSHTransport
+2025-07-30T23:50:21.944975Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2025-07-30T23:50:21.945343Z [HoneyPotSSHTransport,3,IP_REDACTED] Connection lost after 120.1 seconds
+2025-07-30T23:55:54.753327Z [twisted.internet.base#info] Received SIGTERM, shutting down.
+2025-07-30T23:55:54.780924Z [-] (TCP Port 2222 Closed)
+2025-07-30T23:55:54.783211Z [cowrie.ssh.factory.CowrieSSHFactory#info] Stopping factory <cowrie.ssh.factory.CowrieSSHFactory object at 0xREDACTED>
+2025-07-30T23:55:54.794230Z [twisted.internet.base#info] Main loop terminated.
+2025-07-30T23:55:54.803731Z [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
